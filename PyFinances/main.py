@@ -1,7 +1,7 @@
 import os
 import csv 
 
-csvpath = os.path.join(". .","Desktop","python_challenge", "PyFinances", "budget_data.csv")
+csvpath = os.path.join("..", "PyFinances", "budget_data.csv")
 
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
