@@ -2,7 +2,8 @@ import os
 import csv 
 import numpy as np
 
-csvpath = os.path.join("..", "PyElections", "houston_election_data.csv")
+csvpath = os.path.join("..", "PyElections", "election_data.csv")
+#cleaexportresults = os.path.join("..", "PyFinances", "Election Results")
 
 
 All_Candidates = []
@@ -43,10 +44,12 @@ Ind_votes.append(Ind_votes.reverse())
 Firstcandidate = Unique_Candidates[0]
 Secondcandidate = Unique_Candidates[1]
 
-print("Houston Mayoral Election Results")
-print("---------------------------------------")
-print(f"Total Cast Votes: {Total_Votes}")
-print("---------------------------------------")
+
+Election_summary = ( 
+    "Houston Mayoral Election Results \n"
+    "---------------------------------------\n"
+    f"Total Cast Votes: {Total_Votes}\n"
+    "---------------------------------------\n")
 
 for i in range(len(Unique_Candidates)-1):
     print(f"{Unique_Candidates[i]}: {perc_per[i]}% ({Ind_votes[i]})")

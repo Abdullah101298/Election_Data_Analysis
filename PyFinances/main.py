@@ -2,6 +2,7 @@ import os
 import csv 
 
 csvpath = os.path.join("..", "PyFinances", "budget_data.csv")
+exportresults = os.path.join("..", "PyFinances", "Financial Analysis")
 
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
@@ -33,11 +34,18 @@ Max_month = Months[max_change_month]
 min_change_month = Profit_change.index(min_change)+1
 Min_month = Months[min_change_month]
 
-print("Financial Analysis")
-print(f"Total Months: {Num_Months}")
-print(f"Total: ${Profit_sum}")
-print(f"Average Change: ${round(Average_Change,2)}")
-print(f"Greatest Increase in Profits:{Max_month} (${max_change})")
-print(f"Greatest Decrease in Profits:{Min_month} (${min_change})")
+Summary = (
+    "Financial Analysis \n"
+    f"Total Months: {Num_Months}\n"
+    f"Total: ${Profit_sum}\n"
+    f"Average Change: ${round(Average_Change,2)}\n"
+    f"Greatest Increase in Profits:{Max_month} (${max_change})\n"
+    f"Greatest Decrease in Profits:{Min_month} (${min_change})\n")
+print(Summary)
+
+with open(exportresults, "w") as txt_file:    
+    txt_file.write(Summary)
+
+
 
 
