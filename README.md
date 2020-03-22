@@ -1,8 +1,11 @@
 
-PyElections Challenge 
+# PyElections Challenge 
 
-In this challenge, we are tasked with writing a script that will decide the two candidates with the highest number of votes 
-who will advance to the runoff election. 
+## Program: Python 
+
+## Analyzing election data
+
+This project consist of deciding the two candidates with the highest number of votes who will advance to the runoff election. 
 
 As well as this, we will calculate and print
 
@@ -12,11 +15,11 @@ As well as this, we will calculate and print
     (4) The total number of votes each candidate won
     (5) Print the names of the two candidates who will advance to the runoff election.
 
-PyFinances Challenge 
+## Analyzing financial data 
 
 The data consists of two columns: one being the data and the other being the Profits/Losses for a certain company. 
 
-We were tasked with printing and calculating, 
+The following actions were performed,  
 
       (1) The total number of months included in the dataset
       (2) The net total amount of "Profit/Losses" over the entire period
