@@ -17,6 +17,8 @@ As well as this, we will calculate and print
     (4) The total number of votes each candidate won
     (5) Print the names of the two candidates who will advance to the runoff election.
 
+# Financial Analysis 
+
 ## Analyzing financial data 
 
 The data consists of two columns: one being the data and the other being the Profits/Losses for a certain company. 
