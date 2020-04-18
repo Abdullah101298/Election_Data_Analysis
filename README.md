@@ -1,7 +1,7 @@
 
 # PyElections Challenge 
 
-<img src="https://image.shutterstock.com/image-vector/united-states-elections-us-midterm-260nw-1194465994.jpg" alt="alt Image" width="1000" height="300">
+<img src="https://ichef.bbci.co.uk/images/ic/720x405/p07snhjs.jpg" alt="alt Image" width="1000" height="500">
 
 ## Program: Python 
 
