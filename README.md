@@ -1,6 +1,8 @@
 
 # PyElections Challenge 
 
+<img src="https://image.shutterstock.com/image-vector/united-states-elections-us-midterm-260nw-1194465994.jpg" alt="alt Image" width="1000" height="300">
+
 ## Program: Python 
 
 ## Analyzing election data
