@@ -1,5 +1,5 @@
 
-# PyElections Challenge 
+# Election Analysis
 
 <img src="https://ichef.bbci.co.uk/images/ic/720x405/p07snhjs.jpg" alt="alt Image" width="1000" height="300">
 
