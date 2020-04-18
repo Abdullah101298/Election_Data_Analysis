@@ -19,6 +19,8 @@ As well as this, we will calculate and print
 
 # Financial Analysis 
 
+<img src="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/profitloss2.jpg" alt="alt Image" width="1000" height="300">
+
 ## Analyzing financial data 
 
 The data consists of two columns: one being the data and the other being the Profits/Losses for a certain company. 
